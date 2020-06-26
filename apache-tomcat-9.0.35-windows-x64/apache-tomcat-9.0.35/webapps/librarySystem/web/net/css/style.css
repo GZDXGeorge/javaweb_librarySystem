@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap');
+@import url(./iconfont.css);
+@import url(./iconfont1.css);
+@import url(./iconfont2.css);
+@import url(./iconfont3.css);
+@import url(../../jeasyui/themes/default/easyui.css);
+@import url(../../jeasyui/themes/icon.css);
+@import url(../../jeasyui/demo/demo.css);
+ body
+{
+    margin:0;
+    padding:0;
+   /* background-image: url(./LogeIn3.jpg);背景图片*/
+    background-repeat: no-repeat;       /*背景图片不重复*/
+} 
+.PersonImg {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#bigBox
+{
+    margin:0 auto;          /*login框居中*/
+    margin-top:20px;       /*login框与顶部距离*/
+    padding:20px 50px;      /*login框内部的距离(内部的输入框与按钮的距离)*/
+    /* background-color:#00000090; login框背景颜色和透明度*/
+    background: rgba(255,255,255,0.04);
+    width:430px;
+    height:480px;
+    border-radius:10px;         /*圆角边*/
+    text-align:center;          /*框内所有内容居中*/
+}
+#bigBox h1
+{
+    color:white;            /*Login字体颜色*/
+}
+#bigBox  .inputBox
+{
+    margin-top:30px;        /*输入框顶部与LOGIN标题的间距*/
+}   
+#bigBox  .inputBox  .inputText .inputText1
+{
+    margin-top:20px;       /*输入框之间距离*/
+}
+#bigBox .inputBox  .inputText  input
+{
+    border:0;              /*删除输入的边框*/    
+    padding:10px 10px;      /*输入框内间距*/
+    width:228px;
+    border-bottom:1px solid white;/*输入框白色下划线*/
+    background-color: #00000000;   /*输入框透明*/
+    color:white;                    /* 输入字体颜色*/
+    outline:none;  
+}
+#bigBox .inputBox  .inputText1  input
+{
+    border:0;              /*删除输入的边框*/    
+    padding:10px 10px;      /*输入框内间距*/
+    width:230px;
+    border-bottom:1px solid white;/*输入框白色下划线*/
+    background-color: #00000000;   /*输入框透明*/
+    color:white;                    /* 输入字体颜色*/
+    outline:none;  
+}
+#bigBox .inputBox .inputText span
+{
+    color:white;
+    width: 40px;
+    line-height: 45px;
+    vertical-align:middle;
+}
+#bigBox .inputBox .inputText1 span
+{
+    color:white;
+    width: 40px;
+    line-height: 45px;
+    vertical-align:middle;
+}
+#eye
+{
+    color:white;
+}
+#bigBox .inputButton
+{
+    margin-top:20px;    /*按钮顶部与输入框的距离*/
+    width:250px;    
+    height:25px;    
+    color:white;        /*按钮字体颜色*/
+    border:0;               /*删除按钮边框*/
+    border-radius:20px;     /*按钮四个圆角边*/
+    outline:none;    
+    /* background-image:linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);	按钮渐变颜色 */
+    background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+}
+#bigBox  .login{
+    color: white;     
+    /* display: inline-block; */
+    float:left;
+    font-family: 'Poppins',sans-serif;
+}
+#bigBox   .pass{         
+    /* display: inline-block;  */
+    float:right;
+}
+.pass a:link {
+    color:white;
+    text-decoration:none;
+} 
+.pass a:visited{   
+    color:blue;
+}
+.pass  a:hover{
+    text-decoration: underline;
+}
+.pass  a:active{color: red; } 
+
+.links{
+    display: flex;
+    cursor: pointer;  
+    margin: 0 0 20px 0;
+    text-align:center;  
+  }
+
+  .WECHAT,.QQ,.EMAIL{
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 10px;
+    border-radius:20px;  
+    outline:none;    
+    text-align: center;  
+  }
+  .WECHAT{
+    background-color:white;
+    border: 1px solid  white;
+    color: green;
+    display:inline;  
+  }
+  .QQ{
+    background: #3e61a8;
+    border: 1px solid#3e61a8;
+    color: white;
+    display:inline;
+  }
+  .EMAIL{
+    background-color: slateblue;
+    border:1px  solidslate blue;
+    color: white;
+    display:inline;
+  }
+#bigBox  .QQ  a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+#bigBox  .EMAIL a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+#bigBox .links .WECHAT a{
+    color: green;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+#bigBox .links a:hover{
+    text-decoration: underline;
+}
+
+.topDiv
+{
+    position:absolute;right:8px;top:6px;
+    font-size:12px;
+    line-height:25px;
+}
+.topDiv a
+{
+    text-decoration:none;
+    font-weight:normal;
+    font-size:12px;
+    line-height:25px;
+    margin-left:3px;
+    margin-right:3px;
+    color:#333;
+}
+.topDiv a:link {
+    text-decoration:none;
+}
+.topDiv a:hover
+{
+    text-decoration:underline;
+}
+.topDiv  a:active
+{
+    color: red;
+}
+

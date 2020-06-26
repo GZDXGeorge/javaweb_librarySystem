@@ -1,0 +1,43 @@
+11-Jun-2020 15:56:48.585 警告 [main] org.apache.catalina.startup.SetAllPropertiesRule.begin [SetAllPropertiesRule]{Server/Service/Connector} Setting property 'useBodyEncodingURI' to 'true' did not find a matching property.
+11-Jun-2020 15:56:48.638 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.35
+11-Jun-2020 15:56:48.639 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 5 2020 20:36:20 UTC
+11-Jun-2020 15:56:48.640 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.35.0
+11-Jun-2020 15:56:48.640 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+11-Jun-2020 15:56:48.640 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+11-Jun-2020 15:56:48.640 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+11-Jun-2020 15:56:48.640 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\Intellij IDEA\jdk1.8.0_201\jre
+11-Jun-2020 15:56:48.641 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_201-b09
+11-Jun-2020 15:56:48.641 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+11-Jun-2020 15:56:48.641 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+11-Jun-2020 15:56:48.641 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+11-Jun-2020 15:56:48.642 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\conf\logging.properties
+11-Jun-2020 15:56:48.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Jun-2020 15:56:48.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djdk.tls.ephemeralDHKeySize=2048
+11-Jun-2020 15:56:48.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Jun-2020 15:56:48.647 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dignore.endorsed.dirs=
+11-Jun-2020 15:56:48.648 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+11-Jun-2020 15:56:48.776 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35
+11-Jun-2020 15:56:48.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\temp
+11-Jun-2020 15:56:48.781 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.24]。
+11-Jun-2020 15:56:48.782 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]。
+11-Jun-2020 15:56:48.785 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+11-Jun-2020 15:56:48.808 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1g  21 Apr 2020]
+11-Jun-2020 15:56:49.328 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8888"]
+11-Jun-2020 15:56:49.989 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1,647]毫秒内初始化
+11-Jun-2020 15:56:50.030 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+11-Jun-2020 15:56:50.031 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.35]
+11-Jun-2020 15:56:50.052 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\docs]
+11-Jun-2020 15:56:50.561 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\docs]的部署已在[508]毫秒内完成
+11-Jun-2020 15:56:50.562 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\examples]
+11-Jun-2020 15:56:54.816 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\examples]的部署已在[4,255]毫秒内完成
+11-Jun-2020 15:56:54.817 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\host-manager]
+11-Jun-2020 15:56:54.930 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\host-manager]的部署已在[113]毫秒内完成
+11-Jun-2020 15:56:54.930 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\librarySystem]
+11-Jun-2020 15:56:54.980 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\librarySystem]的部署已在[50]毫秒内完成
+11-Jun-2020 15:56:54.983 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\manager]
+11-Jun-2020 15:56:55.035 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\manager]的部署已在[51]毫秒内完成
+11-Jun-2020 15:56:55.035 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\ROOT]
+11-Jun-2020 15:56:55.079 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\tomcat\apache-tomcat-9.0.35-windows-x64\apache-tomcat-9.0.35\webapps\ROOT]的部署已在[44]毫秒内完成
+11-Jun-2020 15:56:55.084 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8888"]
+11-Jun-2020 15:56:55.095 信息 [main] org.apache.catalina.startup.Catalina.start [5,103]毫秒后服务器启动
+11-Jun-2020 16:12:09.616 严重 [main] org.apache.catalina.startup.Catalina.stopServer 无法联系[localhost:8005]（基端口[8005]和偏移量[0]）。Tomcat可能不在运行。
